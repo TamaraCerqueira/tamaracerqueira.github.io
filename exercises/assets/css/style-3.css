@@ -8,7 +8,20 @@ body { line-height: 1.5; min-height: 100vh }
 @media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
+section { padding: 4% 20% }
+section *:last-child { margin-bottom: 0 !important }
+body { background-color: lightblue; }
+h1, h2, h3{ color: blue;} 
+a{color: blue; }
 
+@media (min-width: 768px) {
+    section { padding: 4% 20% }
+ }
+ 
+
+ @media (max-width: 767px) {
+    section { padding: 5% 5% }
+ }
 
 h2 {
     font-size: 56px;
