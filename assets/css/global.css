@@ -5,7 +5,7 @@ html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
 body { line-height: 1.5; min-height: 100vh }
 @media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
-@media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
+@media (min-width: 468px ) { body { text-rendering: optimizeLegibility } }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 body { background-color: lightgreen; }
@@ -46,4 +46,30 @@ p {
     font-size: 20px;
     margin-bottom: 16px;
   
+}
+
+.classy-container{ 
+    display: inline-flex;
+    gap: 10px;  
+}
+.classy{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #28a745;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #28a745;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+.classy:hover{
+    background-color: #218838;  
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+.fancy-container{ 
+    display: inline-flex;
+    gap: 10px;  
 }
