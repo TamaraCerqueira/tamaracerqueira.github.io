@@ -1,18 +1,88 @@
-
+body{
+    font-family: "Markazi Text", serif;
+}
 nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #8174A0 }
 
 header.theme-dark   { background-color:#A888B5}
 
-header.theme-dark  h1 { color: var(--indigo-600); }
-
+header.theme-dark  h1 {
+           font-size: calc(var(--font-size-xxxl) * 1.2);
+        
+    
+    color: var(--gray-800);
+}
 section.theme-dark   { background-color: #8174A0 }
 
 footer.theme-dark   { background-color: #A888B5}
 
 
 
-header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+header .col-text h2, .col-1 > h3 { line-height: 1.2 }
 
 .theme-dark a:not(.btn):link, .theme-dark a:not(.btn):visited {
     color: var(--indigo-600);
 }
+.theme-dark h3 {
+    color: var(--gray-200);
+    font-size: calc(var(--font-size-lg) *1.2);
+    
+}
+
+.theme-dark h2{
+    color: white;
+
+        font-size:calc(var(--font-size-xxxl) * 1.2);
+        line-height: 1.2;
+    
+}
+.theme-dark a:not(.btn):link, .theme-dark a:not(.btn):visited {
+    color: var(--gray-200);
+    }
+    footer.theme-dark ul.footer-links li a:link, footer.theme-dark ul.footer-links li a:visited {
+        color: var(--gray-200);
+        text-decoration-color: var(--gray-200);
+    }
+    footer.theme-dark ul.footer-icons li a:link i, footer.theme-dark ul.footer-icons li a:visited i {
+        color: var(--gray-200);
+    }    
+    footer.theme-dark > h3 {
+        color: var(--gray-800);
+        
+                    font-size: var(--font-size-lg);
+        
+        
+    }
+    footer.theme-dark > h2 {
+        color: var(--gray-800);
+    }
+    .theme-dark .col-1 h3.in-col-1, .theme-dark .col-1 h3 {
+        color: var(--slate-100);
+        line-height: 1.2;
+    }
+    .col-3 p {
+        font-size: var(--font-size-lg);
+        line-height: 1.2;
+    }
+    header .col-text h2 {
+        font-size: var(--font-size-lg);
+        line-height: 1.2;
+    }
+    footer > ul.footer-links li {
+        
+        font-size: var(--font-size-md);
+    }
+
+    footer > p.privacy {
+        font-size: var(--font-size-md);
+      
+    }
+    header .col-text h2 {
+        line-height: 1.2;
+    }
+
+    .theme-dark h4{
+        color: white;
+        font-size: var(--font-size-lg);
+        line-height: 1.2;
+    }
+      
