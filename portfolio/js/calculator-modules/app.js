@@ -1,4 +1,4 @@
-import { sum, difference, product, quotient } from './some-file.js'
+import { sum, difference, product, quotient } from './perform-calculations.js'
 
 const calculator = {
     displayValue: '0',
