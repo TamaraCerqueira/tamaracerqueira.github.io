@@ -1,4 +1,5 @@
-import { sum, difference, product, quotient } from './perform-calculations.js'
+import { calculate } from './perform-calculations.js'
+
 
 const calculator = {
     displayValue: '0',
@@ -54,7 +55,7 @@ const calculator = {
     calculator.operator = nextOperator;
   }
   
- 
+  
   
   function resetCalculator() {
     calculator.displayValue = '0';
